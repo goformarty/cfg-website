@@ -16,72 +16,81 @@ h6 {
 
 p {
 
-	}*/
+}
+*/
 
+header {
+	position: relative;
+	width: 100%;
+	min-height: auto;
+	text-align: center;
+	color: #fff;
+	background-image: url(../images/sea-2560x1100.jpg);
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
 
+header .header-content {
+	position: relative;
+	width: 100%;
+	padding: 100px 15px;
+	text-align: center;
+}
+
+@media(min-width:768px) {
 	header {
-		position: relative;
-		width: 100%;
-		min-height: auto;
-		text-align: center;
-		color: #fff;
-		background-image: url(../images/sea-2560x1100.jpg);
-		background-position: center;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		background-size: cover;
-		-o-background-size: cover;
+		min-height: 100%;
 	}
+}
 
-	header .header-content {
-		position: relative;
-		width: 100%;
-		padding: 100px 15px;
-		text-align: center;
-	}
+section {
+	margin: 0 auto;
+	padding: 60px;
+	border-top: 8px #fff solid;
+	color: #585858;
+}
 
-	@media(min-width:768px) {
-		header {
-			min-height: 100%;
-		}
-	}
+.bg-white {
+	background-color: #fff;
+	border-top: 0;
+}
 
-	section {
-		margin: 0 auto;
-		padding: 60px;
-		border-top: 8px #fff solid;
-		color: #585858;
-	}
+.bg-light {
+	background-color: #f0f0f0;
+}
 
-	.bg-white {
-		background-color: #fff;
-		border-top: 0;
-	}
+.bg-dark {
+	background-color: rgb(220,225,230);
+}
 
-	.bg-light {
-		background-color: #f0f0f0;
-	}
+.inner {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 60px 0;
+}
 
-	.bg-dark {
-		background-color: rgb(220,225,230);
-	}
+.member {
+	border: 8px solid transparent;
+	margin-bottom: 25px;
+	width: 60%;
+	height: 60%;
+}
+.member:hover {
+	border-color: #fff;
+}
 
-	.inner {
-		max-width: 800px;
-		margin: 0 auto;
-		padding: 60px 0;
-	}
+.map {
+	padding: 60px;
+}
 
-	.member {
-		border: 8px solid transparent;
-		margin-bottom: 25px;
-		width: 60%;
-		height: 60%;
-	}
-	.member:hover {
-		border-color: #fff;
-	}
+.form-control {
+	border-radius: 0;
+	padding: 6px 12px;
+}
 
-	.map {
-		padding: 60px;
-	}
+.btn {
+	border-radius: 0;
+}
