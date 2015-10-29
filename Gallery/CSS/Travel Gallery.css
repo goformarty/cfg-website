@@ -15,9 +15,12 @@ h2 {
      border-color: black;
      padding: 40px;
 }
-
+h3 {
+     float: right;
+}
 .container {
      padding-bottom: 60px;
+     text-align: center;
 }
 #lightbox{
      position: absolute;
@@ -28,6 +31,7 @@ h2 {
      text-align: center;
      line-height: 0;
      color:#151410;
+     padding: 8px;
      }
 
 #lightbox a, #lightbox a:hover {
@@ -151,6 +155,4 @@ h2 {
      height: 1%;
      /* End hide from IE-mac */
      }    
-body {
-     background: url("Images/back.jpg");
-}
+
