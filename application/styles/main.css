@@ -109,8 +109,8 @@ hr {
 	border-color: #fff;
 }
 
-.map {
-	padding: 60px;
+#guide img {
+	padding-bottom: 15px;
 }
 
 .form-control {
@@ -139,4 +139,3 @@ footer {
 	font-size: 10px;
 	padding-bottom: 15px;
 }
-
