@@ -53,6 +53,12 @@ section {
 	color: #585858;
 }
 
+hr {
+	max-width: 50px;
+    border-color: #585858;
+    border-width: 2px;
+}
+
 .bg-white {
 	background-color: #fff;
 	border-top: 0;
@@ -88,9 +94,14 @@ section {
 
 .form-control {
 	border-radius: 0;
+	border-color: #585858;
+	border: solid 2px;
 	padding: 6px 12px;
 }
 
 .btn {
 	border-radius: 0;
+	border: solid 2px;
 }
+
+
