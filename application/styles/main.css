@@ -55,8 +55,6 @@ header {
 }
 
 header .header-content {
-	position: relative;
-	width: 100%;
 	padding: 100px 15px;
 	text-align: center;
 }
@@ -113,6 +111,20 @@ hr {
 	padding-bottom: 15px;
 }
 
+.blog {
+	position: relative;
+	width: 100%;
+	min-height: 300px;
+	text-align: center;
+	color: #fff;
+	background-image: url(../images/blog-2560x600.jpg);
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
 .form-control {
 	border-radius: 0;
 	border-color: #585858;
@@ -131,6 +143,22 @@ hr {
 	font-family: 'Montserrat', arial, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
+}
+
+.btn-header {
+	font-size: 15px;
+	margin-top: 40px;
+	border-color: #fff;
+	border: solid 2px;
+	color: #fff;
+	background: none;
+}
+
+.btn-header:hover, 
+.btn-header:active, 
+.btn-header:focus {
+	border-color: #fff;
+	color: #fff;
 }
 
 .btn-blog {
