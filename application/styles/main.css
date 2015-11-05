@@ -55,8 +55,13 @@ header {
 }
 
 header .header-content {
-	padding: 100px 15px;
+	padding-top: 380px;
 	text-align: center;
+}
+
+header .btn {
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 @media(min-width:768px) {
@@ -107,6 +112,7 @@ hr {
 	border-color: #fff;
 }
 
+
 #guide img {
 	padding-bottom: 15px;
 }
@@ -126,6 +132,11 @@ hr {
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+}
+
+.blog a {
+	margin-top: 50px;
+	padding: 0 25px;
 }
 
 .form-control {
@@ -164,20 +175,11 @@ hr {
 	color: #fff;
 }
 
-.btn-blog {
-	border-radius: 0;
-	border: solid 2px;
-	font-size: 10px;
-	font-family: 'Montserrat', arial, sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	padding: 5px;
-	background-color: #f0f0f0
-}
-
 footer {
 	background-color: #585858;
 	color: #fff;
 	font-size: 10px;
 	padding-bottom: 15px;
 }
+
+
