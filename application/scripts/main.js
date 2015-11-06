@@ -20,4 +20,16 @@ $(document).ready(function(){
     });
   });
 
+  // blog
+  $(".blog-full").hide();
+
+  $("#btn-one").click(function() {
+        $("#blog-one").toggle("slow");
+  });
+  $("#btn-two").click(function() {
+       $("#blog-two").toggle("slow");
+  });
+  $("#btn-three").click(function() {
+        $("#blog-three").toggle("slow");
+  });
 })
