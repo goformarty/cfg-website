@@ -176,6 +176,10 @@ hr {
 	background-color: #f0f0f0;
 }
 
+.blog-summary {
+	margin-top: 10px;
+	}
+
 footer {
 	background-color: #585858;
 	color: #fff;
