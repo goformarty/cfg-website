@@ -44,8 +44,8 @@ header {
 	position: relative;
 	width: 100%;
 	min-height: auto;
+	color: #585858;
 	text-align: center;
-	color: #fff;
 	background-image: url(../images/sea-2560x1100.jpg);
 	background-position: center;
 	-webkit-background-size: cover;
@@ -55,13 +55,32 @@ header {
 }
 
 header .header-content {
-	padding-top: 380px;
+	padding-top: 240px;
 	text-align: center;
 }
 
-header .btn {
-	padding-left: 25px;
-	padding-right: 25px;
+header a {
+	display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    border-color: #585858;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+    color: #585858;
+    margin-top: 30px;
+}
+
+header a:hover,
+header a:focus,
+header a:active,
+header a.active {
+  	background-color: rgba(255,255,255,.4);
+  	border-color: #585858;
+  	color: #585858;
+  	text-decoration: none;
 }
 
 @media(min-width:768px) {
@@ -116,9 +135,30 @@ hr {
 	border-color: #fff;
 }
 
-#guide img {
-	padding-bottom: 15px;
+.guide-icon {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    border-color: #585858;
+    text-align: center;
+    font-size: 45px;
+    line-height: 100px;
+    color: #585858;
+    margin-bottom: 15px;
 }
+
+.guide-icon:hover,
+.guide-icon:focus,
+.guide:active,
+.guide.active {
+  	background-color: rgba(255,255,255,.8);
+  	border-color: #585858;
+  	color: #585858;
+  	text-decoration: none;
+}
+	
 .gallery {
 	float: center;
 }
@@ -219,3 +259,25 @@ footer .footer-below {
   border-color: #fff;
   color: #606060;
 }
+
+/* Bounce In */
+.guide-icon, header a {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+/*.guide-icon:hover, .guide-icon-in:focus, .guide-icon-in:active, */
+header a:hover, header a:focus, header a:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+

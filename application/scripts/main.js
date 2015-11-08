@@ -20,6 +20,14 @@ $(document).ready(function(){
     });
   });
 
+
+    // $(".guide-icon").hover(function(){
+    //     $('i').toggleClass('fa-map-o');
+    // });
+
+
+
+
   // blog
   $(".blog-full").hide();
 
