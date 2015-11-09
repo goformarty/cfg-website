@@ -1,4 +1,6 @@
-
+a {
+     text-decoration: none;
+}
 #lightbox{
      position: absolute;
      top: 20px;

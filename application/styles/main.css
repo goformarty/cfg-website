@@ -16,6 +16,14 @@ h6 {
 	letter-spacing: 3px;
 	text-decoration: none;
 }
+a {
+     text-decoration: none; 
+     color: #585858;
+ }
+a:hover{
+	text-decoration: none;
+	color: #585858;
+}
 
 p {
 	font-family: 'EB Garamond', serif;
