@@ -51,10 +51,20 @@ p {
 
 header {
 	position: relative;
+<<<<<<< Updated upstream
 	width: auto;
 	min-height: 100%;
+=======
+	width: 100%;
+	min-height: auto;
+<<<<<<< HEAD
+>>>>>>> Stashed changes
 	color: #585858;
 	text-align: center;
+=======
+	text-align: center;
+	color: #fff;
+>>>>>>> gh-pages
 	background-image: url(../images/sea-2560x1100.jpg);
 	background-position: center;
 	-webkit-background-size: cover;
@@ -64,6 +74,7 @@ header {
 }
 
 header .header-content {
+<<<<<<< HEAD
 	padding-top: 240px;
 	text-align: center;
 	padding-left: 20px;
@@ -94,6 +105,21 @@ header a.active {
   	text-decoration: none;
 }
 
+<<<<<<< Updated upstream
+=======
+=======
+	padding: 100px 15px;
+	text-align: center;
+}
+
+>>>>>>> gh-pages
+@media(min-width:768px) {
+	header {
+		min-height: 100%;
+	}
+}
+
+>>>>>>> Stashed changes
 section {
 	margin: 0 auto;
 	padding: 60px;
@@ -107,10 +133,13 @@ hr {
 	border-width: 2px;
 }
 
+<<<<<<< HEAD
 .hr-white {
 	border-color: #fff;
 }
 
+=======
+>>>>>>> gh-pages
 .bg-white {
 	background-color: #fff;
 	border-top: 0;
@@ -140,10 +169,14 @@ hr {
 	border-color: #fff;
 }
 
+<<<<<<< Updated upstream
 .member-block {
 	margin-bottom: 50px;
 }
 
+=======
+<<<<<<< HEAD
+>>>>>>> Stashed changes
 .guide-icon {
     display: inline-block;
     width: 100px;
@@ -174,6 +207,10 @@ hr {
 
 .gallery {
 	float: center;
+=======
+#guide img {
+	padding-bottom: 15px;
+>>>>>>> gh-pages
 }
 
 .gallery-pic {
@@ -195,8 +232,12 @@ hr {
 }
 
 .blog a {
+<<<<<<< HEAD
 	margin-top: 50px;
 	padding: 0 25px;
+=======
+	padding: 0 50px;
+>>>>>>> gh-pages
 }
 
 .form-control {
@@ -236,10 +277,25 @@ hr {
 	color: #fff;
 }
 
+<<<<<<< HEAD
+=======
+.btn-blog {
+	border-radius: 0;
+	border: solid 2px;
+	font-size: 10px;
+	font-family: 'Montserrat', arial, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	padding: 5px;
+	background-color: #f0f0f0;
+}
+
+>>>>>>> gh-pages
 footer {
 	background-color: #585858;
 	color: #fff;
 	font-size: 10px;
+<<<<<<< HEAD
 }
 
 footer h3 {
@@ -306,6 +362,7 @@ header a:hover, header a:focus, header a:active {
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 
+<<<<<<< Updated upstream
 /* Scale */
 .guide-icon:hover, .guide-icon-in:focus, .guide-icon-in:active {
   -webkit-transform: scale(1.1);
@@ -313,3 +370,9 @@ header a:hover, header a:focus, header a:active {
 }
 
 
+=======
+=======
+	padding-bottom: 15px;
+}
+>>>>>>> gh-pages
+>>>>>>> Stashed changes
